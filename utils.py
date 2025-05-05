@@ -81,11 +81,11 @@ order by tgl_file desc"""
 # --------------------------
 
 def build_db_engine():
-    host = "10.60.175.215"
-    port = "3306"
-    username = "smartcapex"
-    password = "SmartCapex2022"
-    database = "smartcapex"
+    host = "xxx"
+    port = "xxx"
+    username = "xxx"
+    password = "xxx"
+    database = "xxx"
 
     engine = create_engine(f"mysql://{username}:{password}@{host}:{port}/{database}")
     
